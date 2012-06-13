@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<html>
+
+	<head>
+
+	<style>
+	.wrap {
+	  background: #FFF;
+	  border: 0px solid #456;
+	  padding: 10px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+		clear: both;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+				border-radius: 5px;
+	}
+
+	.wrap:after,
+	#tumblelog:after,
+	#filtering-nav:after { 
+	  content: ''; 
+	  display: block; 
+	  height: 0; 
+	  clear: both; 
+	  visibility: hidden;
+	}
+
+	.box {
+	  margin: 5px;
+	  padding: 5px;
+	  background: #D8D5D2;
+	  font-size: 11px;
+	  float: left;
+	  -webkit-border-radius: 5px;
+		 -moz-border-radius: 5px;
+			  border-radius: 5px;
+	}
+
+	.col1 { width: 80px; }
+	.col2 { width: 180px; }
+	.col3 { width: 280px; }
+	.col4 { width: 380px; }
+	.col5 { width: 480px; }
+
+	.col1 img { max-width: 80px; }
+	.col2 img { max-width: 180px; }
+	.col3 img { max-width: 280px; }
+	.col4 img { max-width: 380px; }
+	.col5 img { max-width: 480px; }
+
+
+
+	* {
+	  margin: 0;
+	  padding: 0;
+	}
+
+	body { 
+	  font: 13px 'Helvetica Neue', Arial, sans-serif;
+	  background: #D8D5D2;
+	  color: #222;
+	}
+
+	a {
+	  color: #A2C;
+	  text-decoration: none;
+	  font-weight: bold;
+	}
+
+	a:hover {
+	  color: #D26;
+	}
+
+	h1, h2 {
+	  font-weight:100;
+	}
+
+	h1 {
+	  font-size: 36px;
+	}
+
+	h1, h2, h3, p, ul, ol, pre, dl {
+	  margin-bottom: 1.0em;
+	}
+
+	#comparison .example {
+	  width: 420px;
+	  float: left;
+	  margin-right: 20px;
+	}
+
+
+	#comparison .box h5 {
+	  float: left;
+	  margin-bottom: 0;
+	  font-size: 30px;
+	  margin-right: 4px;
+	  line-height: 28px;
+	  font-weight: bold;
+	  color: #FFF;
+	}
+
+
+	</style>
+
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	  
+	  <script src="./jquery.masonry.min.js"></script> 
+		<script> 
+		$(function(){
+			$('#secondary').masonry({columnWidth: 100});
+		});
+	  </script> 
+	  
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+
+	  </head>
+
+	<body>
+
+		<div id="comparison">
+		<div class="example"> 
+			<h3>Masonry</h3>
+			<div id="secondary" class="wrap"> 
+			  <div class="box col1"> 
+				<h5>1</h5> 
+				<p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris. </p> 
+			  </div> 
+	 
+			  <div class="box col2"> 
+				<h5>2</h5> 
+				<p>Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit.</p> 
+			  </div> 
+	 
+			  <div class="box col1"> 
+				<h5>3</h5> 
+				<p>Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Ut eget sem risus, et posuere velit.  Aenean ac mauris non ligula.  </p> 
+			  </div> 
+	 
+			  <div class="box col1"> 
+				<h5>4</h5> 
+				<p>Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.</p> 
+			  </div> 
+	 
+			  <div class="box col1"> 
+				<h5>5</h5> 
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.</p> 
+			  </div> 
+	 
+			  <div class="box col1"> 
+				<h5>6</h5> 
+				<p>Cadipiscing in, lacinia vel, tellus. </p> 
+			  </div> 
+	 
+			  <div class="box col1"> 
+				<h5>7</h5> 
+				<p>Pellentesque a diam sit amet mi ullamcorper vehicula.  adipiscing in, lacinia vel, tellus.</p> 
+			  </div> 
+	 
+			  <div class="box col3"> 
+				<h5>8</h5> 
+				<p>Sed ac risus. Phasellus lacinia, magna a ullamcorper laoreet, lectus arcu pulvinar risus, vitae facilisis libero dolor a purus.  Suspendisse ac urna. Etiam pellentesque. Sed vel lacus. Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspendisse ac urna. Etiam pellentesque mauris ut lectus. Nunc tellus ante, mattis eget, gravida vitae, ultricies ac, leo. Integer leo pede, ornare a, lacinia eu, vulputate vel, nisl.  Suspendisse ac urna. Etiam pellentesque. </p> 
+			  </div> 
+	 
+			  <div class="box col2"> 
+				<h5>9</h5> 
+				<p>Ut convallis, sem sit amet interdum consectetuer, odio augue aliquam leo, nec dapibus tortor nibh sed augue. Ut condimentum mi vel tellus. Suspendisse laoreet. Fusce ut est sed dolor gravida convallis. Morbi vitae ante. Vivamus ultrices luctus nunc. Suspendisse et dolor. Pellentesque a diam sit amet mi ullamcorper vehicula.  adipiscing in, lacinia vel, tellus.</p> 
+			  </div> 
+	 
+			  <div class="box col1"> 
+				 <h5>10</h5> 
+				 <p>Etiam pellen tesque mauris ut lectus.</p> 
+			   </div> 
+	 
+			   <div class="box col1"> 
+				 <h5>11</h5> 
+				 <p>Mauris nibh felis, adipiscing varius, adipiscing in, lacinia vel, tellus. Suspen disse ac urna. Ut condi mentum mi vel tellus.</p> 
+			   </div> 
+	 
+			   <div class="box col1"> 
+				  <h5>12</h5> 
+				 <p>Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p> 
+			   </div> 
+	 
+			</div> <!-- /#secondary.wrap --> 
+		  </div>    
+		  
+		 </div>
+	</body>
+
+</html>
